@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 
 import { MeuPrimeiroComponent } from './meu-primeiro-component/meu-primeiro-component';
 import { MeuComponentComponent } from './meu-component/meu-component.component';
+import { CursosModule } from "./cursos/cursos.module";
 
 
 
@@ -13,9 +14,11 @@ import { MeuComponentComponent } from './meu-component/meu-component.component';
     AppComponent,
       MeuPrimeiroComponent,
       MeuComponentComponent
+
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+      CursosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
