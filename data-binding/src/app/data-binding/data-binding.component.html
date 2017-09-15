@@ -1,0 +1,93 @@
+<!--<section class="propety-binding">-->
+  <!--<article>-->
+    <!--<h3>Titulo / Interpolação</h3>-->
+    <!---->
+    <!--<p> Minha url: {{ url }}</p>-->
+
+    <!--<p> Meu Valor: {{ getValor() }}</p>-->
+    <!---->
+  <!--</article>-->
+<!--</section>-->
+
+<!--
+<section class="propety-binding">
+  <article>
+    <div>
+      Selecione uma Classe
+
+      <select #classe (change)="0" >
+        <option value="alert-success">Sucesso</option>
+        <option value="alert-info">Informação</option>
+        <option value="alert-warning">Alerta</option>
+        <option value="alert-danger">Perigo</option>
+      </select>
+
+      <br><br>
+
+      <div class="alert {{classe.value}}">
+        <strong>Success!</strong> Indicates a successful or positive action.
+      </div>
+
+      <div class="alert" [class.alert-success]="classe.value =='alert-success'">
+        <strong>Success!</strong> Indicates a successful or positive action.
+      </div>
+
+      <div class="alert" [class.alert-info]="classe.value =='alert-info'">
+        <strong>Info!</strong> Indicates a neutral informative change or action.
+      </div>
+
+      <div class="alert" [class.alert-warning]="classe.value =='alert-warning'">
+        <strong>Warning!</strong> Indicates a warning that might need attention.
+      </div>
+
+      <div class="alert" [class.alert-danger]="classe.value =='alert-danger'">
+        <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+      </div>
+
+
+      <div class="alert alert-danger" [style.display]="classe.value =='alert-danger' ? 'block': 'none'">
+        <strong>ERROR!</strong> Apenas em caso de erro
+      </div>
+    </div>
+
+  </article>
+</section>-->
+
+
+<!--<section class="propety-binding">-->
+<!--<article>-->
+<!--<h3>Event Binding</h3>-->
+
+<!--<button class="btn btn-success" (click)="botaoClicado()" >Me Clique</button><br>-->
+
+  <!--<input #campo (keyup.enter)="salvar(campo.value)" type="text" (keyup)="saiu($event)" ><br>-->
+
+  <!--<p>MEU VALOR DO INPUT: {{ valorAtual }}</p>-->
+
+  <!--<p>MEU VALOR SALVO: {{ valorSalvo }}</p>-->
+
+
+<!--</article>-->
+<!--</section>-->
+
+<!--<section class="propety-binding">-->
+  <!--<article>-->
+    <!--<h3>two way data Binding</h3>-->
+
+
+    <!--<input type="text" (input)="nome = $event.target.value" [value]="nome"><br>-->
+
+  <!--<p> {{nome}}</p>-->
+
+
+  <!--</article>-->
+<!--</section>-->
+
+<section class="propety-binding">
+  <article>
+    <h3>Input Property</h3>
+
+    <app-curso [nome]="nomeDoCurso"></app-curso>
+
+  </article>
+</section>
