@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { MeuPrimeiroComponent } from './meu-primeiro-component/meu-primeiro-component';
 import { MeuComponentComponent } from './meu-component/meu-component.component';
 import { CursosModule } from "./cursos/cursos.module";
+import {TesteComponent} from "./teste/teste.component";
+import {ClientesComponent} from "./clientes/clientes.component";
 
 
 
@@ -13,7 +15,9 @@ import { CursosModule } from "./cursos/cursos.module";
   declarations: [
     AppComponent,
       MeuPrimeiroComponent,
-      MeuComponentComponent
+      MeuComponentComponent,
+      TesteComponent,
+      ClientesComponent
 
   ],
   imports: [
